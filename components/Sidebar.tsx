@@ -12,7 +12,7 @@ const Sidebar = () => {
     return (
         <div>
             <section className='sticky left-0 top-0 flex h-screen w-fit flex-col
-        justify-between bg-[#212121] p-6 pt-28 text-white max-sm:hidden lg:w-[264px]'>
+        justify-between bg-gradient-to-b from-[#474d5e] to-[#212121] p-6 pt-28 text-white max-sm:hidden lg:w-[264px]'>
                 <div className='flex flex-col gap-6'>
 
                     {sidebarLinks.map((link) => {
